@@ -404,3 +404,36 @@ form .inputval{
 .notfound{
     color: #fff;
 }
+.team-small {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.team-small .member {
+  text-align: center;
+  color: #fff;
+  width: 30%;
+  min-width: 200px;
+}
+
+.team-small h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.team-small p {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+.mem {
+    background-color: aqua;
+    width:30%;
+    font-weight: bold;
+    
+}
